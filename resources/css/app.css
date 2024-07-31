@@ -1,0 +1,64 @@
+ /* Estilos para el contenido*/
+ * {
+     box-sizing: border-box;
+     margin: 0;
+ }
+
+ /* Estilos para el botón */
+ .menu-button {
+     padding: 16px;
+     border: none;
+     cursor: pointer;
+     background-color: transparent;
+ }
+
+ /* Estilos para la imagen del botón */
+ .menu-image {
+     width: 35px;
+     height: 35px;
+ }
+
+ /* Contenedor del menú desplegable */
+ .dropdown {
+     background-color: #0e5dd3;
+     position: relative;
+ }
+
+ .menu-header {
+     display: flex;
+     align-items: center;
+ }
+
+ /* Opciones del menú desplegable */
+ .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #f9f9f9;
+     border-radius: 10px;
+     min-width: 250px;
+     box-shadow: 16px 16px 16px 0px rgba(0, 0, 0, 0.2);
+     z-index: 1;
+ }
+
+ /* Estilo para el título del menú */
+ .menu-label {
+     color: white;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 22px;
+     flex-grow: 1;
+     text-align: center;
+ }
+
+ /* Estilo para cada opción del menú*/
+ .dropdown-content a {
+     color: black;
+     padding: 16px 19px;
+     text-decoration: none;
+     display: block;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ }
+
+ /* Cambia el color al pasar el ratón por encima */
+ .dropdown-content a:hover {
+     background-color: #808ce9ab
+ }
